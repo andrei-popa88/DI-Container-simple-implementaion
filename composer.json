@@ -1,0 +1,16 @@
+{
+    "name": "andreip/dicontainer",
+    "description": "A simple implementation of a Dependency Injection Container - not to be used in production",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Andreip\\Dicontainer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrei Popa"
+        }
+    ],
+    "require": {}
+}
