@@ -53,7 +53,7 @@ class Container {
                 continue;
             }
 
-            $name = "$".$parameter->getName();
+            $name = $parameter->getName();
 
             if(!array_key_exists($name, $this->parameterBinding[$class])) {
                 if($parameter->isOptional()) {
